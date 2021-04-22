@@ -1,0 +1,62 @@
+#imagenvaquita img{
+    width: 400px;
+    padding: 5px;
+    border: 2px double indianred;
+
+}
+#imagenzarigueya img{
+    width: 400px;
+    padding: 5px;
+    border: 2px double indianred;
+}
+#imagentaylor img{
+    width: 400px;
+    padding: 5px;
+    border: 2px double indianred;
+}
+.destacado {
+    color: rosybrown;
+    background-color: tan;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#vaquitas {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: indianred;
+    border: 5px solid tan;
+    padding: 10px;
+    margin: 10px;
+}
+.titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: rgb(194, 72, 72);
+    padding: 10px;
+    margin: 10px;
+}
+#zarigueya {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: indianred;
+    border: 5px solid tan;
+    padding: 10px;
+    margin: 10px;
+}
+.todo {
+    background-color: mistyrose;
+}
+#yoga {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: indianred;
+    border: 5px solid tan;
+    padding: 10px;
+    margin: 10px;
+}
+
+#taylor {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: indianred;
+    border: 5px solid tan;
+    padding: 10px;
+    margin: 10px;
+}
+
+    
