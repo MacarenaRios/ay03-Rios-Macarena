@@ -4,6 +4,8 @@
         <link href="estilo.css" rel="stylesheet"/>
         <meta charset="utf-8"/>
         <title>Para cuando estoy triste</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="myscript.js"></script>
     </head>
     <body class="todo">
         <header>
@@ -19,6 +21,7 @@
             <h2>Número 1: Las vaquitas</h2>
             <h3 class="titulovacas"><strong>¿Por qué vaquitas?</strong></h3>
             <p>Porque son mi animal preferido y si las ves en la siguiente foto te darás cuenta que con solo verlas tu cerebro libera serotonina.</p>
+            <button onclick="MostrarOcultar()">Mirame</button>
             <div id="imagenvaquita">
                 <img src="vaquita.jpg" alt="Vaca chiquita"/>
             </div>
@@ -37,7 +40,8 @@
         </div>
         <div id="taylor">
             <h2>Número 4: Escuchar Taylor Swift</h2>
-            <p>Mi mejor amiga y yo nos juntamos por zoom a escuchar a Taylor Swift mientras estudiamos lo cual es uno de mis momentos favoritos de la semana. Ultimamente estamos escuchando la nueva version de fearless que esta buenisima 10/10 recomendada para tardes de estudio.<a href="youtube.com/watch?v=crzngZVCDtM"title="Fearless">Fearless Taylor's version</a></p>
+            <button onclick="CambiarTexto()">Leeme</button>
+            <p id="textoTaylor">Mi mejor amiga y yo nos juntamos por zoom a escuchar a Taylor Swift mientras estudiamos lo cual es uno de mis momentos favoritos de la semana. Ultimamente estamos escuchando la nueva version de fearless que esta buenisima 10/10 recomendada para tardes de estudio.</p><p><a href="youtube.com/watch?v=crzngZVCDtM"title="Fearless">Fearless Taylor's version</a></p>
             <div id="imagentaylor">
                 <img src="fearless-taylors-version.jpg" alt="Portada del álbum de Taylor Swift Fearless (Taylor´s version)">
             </div>
